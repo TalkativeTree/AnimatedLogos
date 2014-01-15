@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>TalkativeTree</title>
+  <link rel="stylesheet" href="robot.css" media="screen" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="robot.js"></script>
+</head>
+<body>
+  <section class="murderous-robot">
+    <section class="buttons">
+      <div class="btn btn-broadcast"><p>broadcast</p></div>
+      <div class="btn btn-wave"><p>wave</p></div>
+      <div class="btn btn-chase"><p>dance</p></div>
+
+    </section>
+    <div class="robot">
+      <div class="background-circle"></div>
+    <!-- layer 0 has the thought waves coming from the head -->
+      <section class="layer waves">
+        <div class="little radio-wave"></div>
+        <div class="medium radio-wave"></div>
+        <div class="big radio-wave"></div>
+        <div class="left-triangle"></div>
+        <div class="right-triangle"></div>
+      </section>
+
+      <!-- layer 1 should have the head, shoulders, and torso -->
+      <section class="layer body">
+        <div class="head"></div>
+        <div class="shoulders"></div>
+        <div class="torso"></div>
+      </section>
+
+      <!-- layer 2 should have all the moving parts: eyes, legs, arms -->
+      <section class="layer">
+        <div class="eyes">
+          <div class="eye left-eye"></div>
+          <div class="eye right-eye"></div>
+        </div>
+        <div class="right-leg leg-bone rotate-right">
+          <div class="foot-border"></div>
+          <div class="foot"></div>
+          <div class="leg-border"></div>
+          <div class="leg"></div>
+          <div class="hip-joint"></div>
+        </div>
+        <div class="left-leg leg-bone rotate-left">
+          <div class="foot-border"></div>
+          <div class="foot"></div>
+          <div class="leg-border"></div>
+          <div class="leg"></div>
+          <div class="hip-joint"></div>
+        </div>
+        <div class="left-arm arm">
+            <div class="hand-border"></div>
+            <div class="hand"></div>
+            <div class="forearm"></div>
+            <div class="joint"></div>
+        </div>
+        <div class="right-arm arm">
+            <div class="hand-border"></div>
+            <div class="hand"></div>
+            <div class="forearm"></div>
+            <div class="joint"></div>
+        </div>
+      </section>
+    </div>
+    <div class="robot-message hide">01101101 01110101 01110011 01110100 00100000 01101011 01101001 01101100 01101100 00100000 01101000 01110101 01101101 01100001 01101110 01110011</div>
+  </section>
+</body>
