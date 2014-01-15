@@ -469,47 +469,6 @@ broadcast
 
 /*
 ==============================================
-transmit
-==============================================
-*/
-
-@keyframes transmit {
-  0% {
-    transform: scale(0);
-    opacity: 0.0;
-  }
-  60% {
-    transform: scale(1);
-  }
-  80% {
-    transform: scale(0.9);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes transmit {
-  0% {
-    -webkit-transform: scale(0);
-    opacity: 0.0;
-  }
-  60% {
-    -webkit-transform: scale(1);
-  }
-  80% {
-    -webkit-transform: scale(0.9);
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scale(1);
-    opacity: 1;
-  }
-}
-/*
-==============================================
 chase
 ==============================================
 */
@@ -591,7 +550,7 @@ wave
   -webkit-animation-timing-function: ease-in;
 
 }
-@keyframes right-side-wave {
+@keyframes wave {
   0% {
     -webkit-transform: rotate(-180deg);
     -moz-transform: rotate(-180deg);
@@ -692,12 +651,19 @@ shake
     -ms-transform: rotate(70deg);
     transform: rotate(70deg);
   }
-  100% {
+  50% {
     -webkit-transform: rotate(60deg);
     -moz-transform: rotate(60deg);
     -o-transform: rotate(60deg);
     -ms-transform: rotate(60deg);
     transform: rotate(60deg);
+  }
+  100% {
+    -webkit-transform: rotate(70deg);
+    -moz-transform: rotate(70deg);
+    -o-transform: rotate(70deg);
+    -ms-transform: rotate(70deg);
+    transform: rotate(70deg);
   }
 }
 @-webkit-keyframes shake {
