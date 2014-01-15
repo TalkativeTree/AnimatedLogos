@@ -67,11 +67,6 @@ function wave(){
   $('.right-arm').addClass('wave');
 }
 
-
-function getClass(btn){
-  return btn.attr('class').split(' ')[1].split('-')[1];
-}
-
 $(function(){
   var broadcaster = new Broadcaster();
 
@@ -83,14 +78,6 @@ $(function(){
 
       if (imagePos < topOfWindow+400 && !broadcaster.broadcasting) {
         broadcaster.broadcast(1250,0);
-      }
-    });
-    $('.btn').each(function(){
-      var imagePos = $(this).offset().top;
-
-      if (imagePos < topOfWindow+400) {
-        var styleClass = getClass($(this));
-        $(this).addClass(styleClass);
       }
     });
   });
