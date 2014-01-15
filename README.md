@@ -31,16 +31,15 @@ So I learned a lot through this exercise.
   left: calc(50% - 200px);
 }
 ```
-- Using "joints" for animating the arms and legs worked out really well. Using a skinny `.bone` to rotate on eased te problem that stems from rotating on a corner.
-- Create a pause between animations using this formula:
+- Using "joints" for animating the arms and legs worked out really well. Using a skinny `.bone` to rotate on eased the issues I had with rotating limbs.
+- Triggering the animations using javascript in a smooth, pleasent fashion.
+- Creating pauses between animations using this formula(See the `.chase` animation for an example):
 
 ```ruby
 actual_animation_duration = desired_iteration_length + desired_pause
 
 actual_step_duration = desired_step_duration * desired_iteration_length / actual_animation_duration
 ```
-
-See the `.chase` animation for an example.
 
 
 ### Things to do differently/improve
