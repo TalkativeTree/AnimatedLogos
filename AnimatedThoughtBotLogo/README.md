@@ -48,5 +48,5 @@ actual_step_duration = desired_step_duration * desired_iteration_length / actual
 2. Rotations.
 3. Clean up javascript code and make it more modular, especially `Broadcaster` and `startChasing`.
 
-[sketch]: https://github.com/TalkativeTree/AnimatedLogos/blob/master/AnimatedThoughtBotLogo/RobotSketching.jpg "Design Sketch"
-[sizing]: https://github.com/TalkativeTree/AnimatedThoughtBotLogo/raw/master/robot_sizing.jpg "Image Sizing"
+[sketch]: https://raw.github.com/TalkativeTree/AnimatedLogos/master/AnimatedThoughtBotLogo/RobotSketching.jpg "Design Sketch"
+[sizing]: https://raw.github.com/TalkativeTree/AnimatedLogos/master/AnimatedThoughtBotLogo/robot_sizing.jpg "Image Sizing"
