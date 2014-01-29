@@ -5,5 +5,5 @@ My main goal for these projects are to find ways to add a a little fun to logos.
 
 Logos Animated so far:
 
-1. [Thoughtbot](google.com)
-2. KISSmetrics
+1. Thoughtbot -- http://codepen.io/TalkativeTree/pen/zAKGw
+2. KISSmetrics -- http://codepen.io/TalkativeTree/pen/zrJKF
